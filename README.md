@@ -15,7 +15,13 @@ Employee Management has never been this convenient. Below are the key features.
 # Getting Started
 1. Clone the repository with `git clone https://github.com/Khun111/StaffSentry.git`
 2. Switch to the repo directory with `cd StaffSentry`
+3. Install necessary dependencies with `npm install`1. Clone the repository with `git clone https://github.com/Khun111/StaffSentry.git`
+2. Switch to the repo directory with `cd StaffSentry`
 3. Install necessary dependencies with `npm install`
+4. Invoke Prisma cli with `npx prisma`
+5. Start Prisma wit `npx prisma generate`
+6. Run the program with `npm run dev`
+7. Visit the homepage on `http://localhost:
 4. Run the program with `npm run dev`
 5. Visit the homepage on `http://localhost:3000`
 

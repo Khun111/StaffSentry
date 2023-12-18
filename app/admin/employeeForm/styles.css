@@ -1,0 +1,15 @@
+.form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--primary-color);
+  padding: 2rem;
+  border-radius: 2em;
+  color: #1e1e1e;
+}
+.form > * {
+width: 100%;
+margin-block: 0.8em;
+height: 2em;
+}

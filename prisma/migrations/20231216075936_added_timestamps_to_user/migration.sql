@@ -1,0 +1,7 @@
+-- AlterTable
+ALTER TABLE "AttendanceRecord" ALTER COLUMN "createdAt" SET DATA TYPE DATE,
+ALTER COLUMN "updatedAt" SET DATA TYPE DATE;
+
+-- AlterTable
+ALTER TABLE "User" ADD COLUMN     "createdAt" DATE DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN     "updatedAt" DATE;

@@ -1,0 +1,221 @@
+:root {
+  --primary-color: #31a0fe;
+  --text-color1: #737373;
+  --white-text: #fff;
+  --med-font: 1rem;
+  --small-font: 0.875rem;
+  --sec-color: #e1f4ff;
+}
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.75em 0;
+}
+.nav h3 {
+  color: var(--text-color);
+  font-size: var(--med-font);
+  line-height: 1.5rem;
+  letter-spacing: 0.00625rem;
+  margin-left: 0.5em;
+}
+.logo_con {
+  display: inline-flex;
+  align-items: center;
+}
+.logo {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.nav ul {
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--text-color1);
+}
+nav a:hover {
+  color: var(--primary-color);
+}
+.list-item + .list-item {
+  margin-left: 2rem;
+}
+.list-item {
+  width: 100%;
+  position: relative;
+}
+.list-item a::before {
+  transition: 500ms ease-in-out;
+  position: absolute;
+  content: "";
+  width: 0%;
+  bottom: 0;
+  height: 0.2em;
+  background-color: var(--primary-color);
+}
+.list-item a:hover::before {
+  width: 100%;
+}
+nav button {
+  border-radius: 1.5625rem;
+  background: var(--primary-color);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  padding: 0.375em 1.5em;
+  border: none;
+}
+nav h4 {
+  color: var(--white-text);
+  line-height: 1.75rem;
+  letter-spacing: 0.0125rem;
+}
+
+.hero_con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero_img {
+  /* width: 30.85375rem;
+  height: 33.47744rem; */
+}
+.hero_text {
+  max-width: 27.5rem;
+}
+.hero_text h1 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 1.5625rem 2.1875rem;
+  flex-wrap: wrap;
+}
+.hero_text p {
+  width: 22.3125rem;
+  margin-top: 1.6em;
+  font-size: var(--small-font);
+  color: var(--text-color1);
+}
+.cta {
+  display: flex;
+  margin-top: 3.7em;
+}
+.cta button {
+  padding: 0.625em 2.5em;
+  border-radius: 1.5rem;
+}
+.cta .hooked {
+  background-color: var(--primary-color);
+  box-shadow: 0px 2px rgba();
+  border: none;
+  color: var(--white-text);
+  line-height: 1.75rem;
+  letter-spacing: 0.0125rem;
+}
+
+.cta .convinced {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  line-height: 1.75rem;
+  letter-spacing: 0.0125rem;
+  margin-left: 0.6em;
+}
+.convinced a {
+  color: var(--primary-color);
+}
+.hooked a {
+  color:  var(--white-text);
+}
+nav > button > h4 > a {
+  color:  var(--white-text);
+}
+nav > button > h4 > a:hover {
+  color:aquamarine;
+}
+.features {
+  text-align: center;
+}
+.features .highlight {
+  border-radius: 1.5rem;
+  background: var(--sec-color);
+  display: inline-flex;
+  padding: 0.25rem 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.features .intro {
+  color: var(--text-color);
+font-family: Open Sans serif;
+font-size: 2.5rem;
+margin-top: 1.12em;
+line-height: 3.5625rem;
+letter-spacing: 0.0125rem;
+}
+.features .desc {
+  color: var(--text-color1);
+text-align: center;
+font-weight: var(--small-font);
+font-weight: 400;
+line-height: 1.25rem; 
+letter-spacing: 0.0125rem;
+}
+.feature_list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.feature_con {
+  margin-top: 3.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+text-align: center;
+}
+.feature_img {
+width: 2.5rem;
+height: 2.5rem;
+}
+.feature_con > header {
+  color: var(--text-color);
+font-size: var(--med-font);
+line-height: 1.5rem;
+letter-spacing: 0.00625rem;
+margin-top: 1.25em;
+}
+.feature_con p {
+  color: var(--text-color1);
+text-align: center;
+font-size: var(--small-font);
+font-weight: 400;
+line-height: 1.25rem;
+letter-spacing: 0.0125rem;
+margin-top: 1.25em;
+max-width: 13.8rem;
+}
+.foot {
+  margin-top: 12em;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 1.2em;
+}
+.contact > * {
+  color: #31a0fe;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.feature_icon {
+  padding: 1.5rem;
+  /* width: 4.5rem;
+  height: 4.5rem; */
+}
+.employee{
+  width: 2rem;
+  height: 2rem;
+}

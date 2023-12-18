@@ -32,8 +32,9 @@ Employee Management has never been this convenient. Below are the key features.
 - Material UI for react tabs
 
 # Project Structure
+This project uses Nextjs App router as opposed to the page router. The relevant folders and files are:
 ## Frontend
-This project uses Nextjs App router as opposed to the page router. The relevant files are:
+- _/public:_ This folder contains the static assets like images
 - _/app/page.js :_ This is the main entry of the application; the homepage.
 - _/app/provider.js:_ This contains the configuration for the next-auth's session provider to pass the session to the client components.
 - _/app/navBar.js:_ This displays the navBar.
@@ -47,6 +48,7 @@ This project uses Nextjs App router as opposed to the page router. The relevant 
 - _/app/admin/editAttendanceForm:_ This shows the attendance record form. An Admin can use it to edit attendance details of employees. e.g change from PRESENT to ABSENT.
 - _/app/admin/editLeaveForm:_ This shows the leave request form. An Admin can use it to edit leave details of employees. e.g change from PENDING to APPROVED.
 ## Backend
+- _/prisma:_ This folder contains the models for the database in schema.prisma and the migrations.
 - _/app/api/employee/route.js:_ This is the API route to create and retreive employees.
 - _/app/api/leave/route.js:_ This is the API route to create and retreive leave requests.
 - _/app/api/attendance/route.js:_ This is the API route to create and retreive attendance records.
